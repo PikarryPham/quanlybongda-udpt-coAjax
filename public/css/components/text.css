@@ -1,0 +1,31 @@
+.m-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.m-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.m-title-2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.m-label-field-input {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+}
+
+.m-label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #454545;
+}

@@ -1,0 +1,8 @@
+.m-footer {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: calc(100% - 226px - 24px - 24px);
+    line-height: 50px;
+}

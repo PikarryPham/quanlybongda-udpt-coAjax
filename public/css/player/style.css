@@ -1,0 +1,12 @@
+.m-page-content form label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.m-page-content form div {
+    margin-bottom: 30px;
+}
+
+.m-page-content form select {
+    width: 203px;
+}

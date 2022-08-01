@@ -1,0 +1,90 @@
+.m-sidebar .m-sidebar-logo img {
+	height: 100%;
+	width: auto;
+}
+
+.m-sidebar .m-list-menu {
+    width: 100%;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 48px;
+}
+
+.m-sidebar .m-list-menu li {
+	list-style: none;
+}
+
+.m-sidebar .m-list-menu li.active {
+	background-color: #019160;
+}
+
+.m-sidebar .m-list-menu li.active a {
+	color: #fff;
+}
+
+.m-sidebar .m-list-menu li:hover {
+	background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.m-sidebar .m-list-menu li:hover a {
+	color: #000;
+}
+
+.m-sidebar .m-menu-item {
+	display: flex;
+	height: 44px;
+	align-items: center;
+}
+
+.m-sidebar .m-menu-icon {
+	display: flex;
+	width: 60px;
+	height: 100%;
+	flex-shrink: 0;
+}
+
+.m-sidebar .m-menu-content {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	overflow: hidden;
+	transition: all linear .5s;
+}
+
+.m-sidebar .m-menu-content a {
+	align-items: center;
+	text-decoration: none;
+	color: #000;
+    white-space: nowrap;
+}
+
+.m-sidebar .m-collapse-toggle {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	bottom: 8px;
+	right: 0px;
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: #fff;
+	background-color: #b8c7d6;
+	cursor: pointer;
+}
+
+.m-sidebar.toggle {
+	width: 60px;
+}
+
+.m-sidebar.toggle .m-menu-content {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.m-sidebar.toggle .toggled {
+    transform: rotate(180deg);
+}

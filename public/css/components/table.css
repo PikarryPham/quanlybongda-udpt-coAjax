@@ -1,0 +1,42 @@
+.m-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.m-table .text-align-left {
+	text-align: left;
+}
+
+.m-table .text-align-center {
+	text-align: center;
+}
+
+.m-table .text-align-right {
+	text-align: right;
+}
+
+.m-table thead {
+	background: white;
+	position: sticky;
+	z-index: 10;
+    top: 0px;
+    box-shadow: #bbbbbb 0px 1px 6px;
+}
+
+.m-table tr {
+	height: 48px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.m-table tbody tr:hover {
+	background-color: #e9ebee;
+}
+
+.m-table .row-selected {
+	background-color: #ddfff3;
+}
+
+.m-table tbody tr td:first-child {
+	padding-left: 16px;
+	padding-right: 8px;
+}
